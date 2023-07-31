@@ -1,0 +1,23 @@
+{
+  "name": "miruBot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "acidtib",
+  "dependencies": {
+    "@discordjs/collection": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "moment": "^2.29.4",
+    "moment-duration-format": "^2.3.2",
+    "node": "^20.5.0",
+    "tmi.js": "^1.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

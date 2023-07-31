@@ -29,3 +29,18 @@ Create `.env` then edit it with your settings.
 ## Running in production
 
     $ npm start
+
+
+## Commands
+
+| command          |   |                                 |   | status |
+|------------------|---|---------------------------------|---|--------|
+| bottime          |   | Shows MiruBot's uptime.         |   | ready  |
+| uptime           |   | Shows the stream uptime.        |   | ready  |
+|                  |   |                                 |   |        |
+| say <message>    |   | Says whatever you wish in chat. |   | ready  |
+|                  |   |                                 |   |        |
+| clear            |   | Clears the chat.                |   | wip    |
+| so <username>    |   | Shoutout user.                  |   | wip    |
+|                  |   |                                 |   |        |
+| reload <command> |   | Reloads a command.              |   | wip    |
